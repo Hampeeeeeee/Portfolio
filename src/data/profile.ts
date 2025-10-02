@@ -3,7 +3,7 @@ export const profile = {
   role: "Frontend Developer",
   avatarUrl: "",
   about: "I am a passionate frontend developer with a knack for creating engaging user experiences. I love working with modern web technologies and continuously improving my skills.",
-    skills: ["React", "TypeScript", "CSS", "HTML", "JavaScript", "GitHub", "Vite", "Tailwind CSS"],
+    skills: ["React", "TypeScript", "CSS", "HTML", "JavaScript", "GitHub", "Vite", "Tailwind"],
     contact: {
         email: "hampus_svensson99@hotmail.com",
         location: "Trelleborg, Sweden",

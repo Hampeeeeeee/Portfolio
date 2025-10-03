@@ -7,7 +7,7 @@ export function ProfileHeader() {
       <div className="shadow-lg w-2xl bg-blue-100 py-6 px-6 rounded">
         <div className="flex items-center space-x-6">
           <Avatar className="w-48 h-48">
-            <AvatarImage src="./public/LinkedInpfp.jpg" />
+            <AvatarImage src={profile.avatarUrl} />
             <AvatarFallback>JD</AvatarFallback>
           </Avatar>
 
@@ -17,7 +17,7 @@ export function ProfileHeader() {
 
           </div>
         </div>
-            <div className="flex flex-wrap gap-2 py-2">
+            <div className="flex flex-wrap gap-2 py-4">
               {profile.skills.map((skill, index) => (
                 <span
                   key={index}

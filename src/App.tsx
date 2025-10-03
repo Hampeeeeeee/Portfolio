@@ -14,7 +14,7 @@ import { GitHubBadge } from "./badges/GitHubBadge";
 import { LinkedInBadge } from "./badges/LinkedInBadge";
 import { MailtoButton } from "./components/ContactButton";
 import { ProfileHeader } from "./components/ProfileHeader";
-import { InfoTabs } from "./components/AboutTabs";
+import { InfoTabs } from "./components/InformationTabs";
 
 function App() {
   return (
@@ -52,7 +52,7 @@ function App() {
         <LinkedInBadge aria-label="Link to LinkedIn Profile" />
       </span>
     </header>
-    <article className="p-4 border-1 bg-blue-100">
+    <article className="p-4 border-1 ">
       <ProfileHeader />
       <section className="py-4">
       <InfoTabs />

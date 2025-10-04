@@ -4,8 +4,8 @@ import { profile } from "@/data/profile";
 export function ProfileHeader() {
   return (
     <>
-      <div className="shadow-lg w-2xl bg-blue-100 py-6 px-6 rounded">
-        <div className="flex items-center space-x-6">
+      <div className="shadow-lg w-[640px] bg-blue-100 py-6 px-6 rounded-tr-xl">
+        <div className="flex items-center space-x-6 border-b-2 border-blue-200 pb-2">
           <Avatar className="w-48 h-48">
             <AvatarImage src={profile.avatarUrl} />
             <AvatarFallback>JD</AvatarFallback>

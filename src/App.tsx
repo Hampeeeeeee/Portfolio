@@ -15,6 +15,7 @@ import { LinkedInBadge } from "./badges/LinkedInBadge";
 import { MailtoButton } from "./components/ContactButton";
 import { ProfileHeader } from "./components/ProfileHeader";
 import { InfoTabs } from "./components/InformationTabs";
+import { GritAcademyBadge } from "./badges/GritAcademyBadge";
 
 function App() {
   return (
@@ -54,8 +55,9 @@ function App() {
     </header>
     <article className="p-4 border-1 ">
       <ProfileHeader />
-      <section className="py-4">
+      <section className="flex py-4">
       <InfoTabs />
+      <GritAcademyBadge />
       </section>
     </article>
     </>

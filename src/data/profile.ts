@@ -1,6 +1,6 @@
 export const profile = {
   name: "Hampus Svensson",
-  role: "Frontend Webb Developer",
+  role: "Frontend Developer",
   avatarUrl: "./LinkedInpfp.jpg",
   about:
     "I am a passionate frontend developer with a knack for creating engaging user experiences. I love working with modern web technologies and continuously improving my skills.",
@@ -17,8 +17,8 @@ export const profile = {
     "Tailwind",
   ],
   projects: [
-    { title: "Project Cards", description: "Creating project cards using API", url: "https://github.com/Hampeeeeeee/JS3-UserCards-Uppgift" },
-    { title: "Quiz App", description: "Quiz App in React", url: "https://github.com/Hampeeeeeee/JS3-React-QuizApp" },
+    { title: "User Cards", description: "Creating user cards using API", url: "https://github.com/Hampeeeeeee/JS3-UserCards-Uppgift", img: "./UserCard-SS.png" },
+    { title: "Quiz App", description: "Quiz App in React", url: "https://github.com/Hampeeeeeee/JS3-React-QuizApp", img: "./QuizApp-SS.png" },
   ],
   contact: {
     email: "hampus_svensson99@hotmail.com",
